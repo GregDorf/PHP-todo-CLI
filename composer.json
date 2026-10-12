@@ -1,0 +1,19 @@
+{
+  "name": "user/todo-app",
+  "description": "Console Todo application in PHP",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Grigoriy Grigoryev"
+    }
+  ],
+  "require": {
+    "ext-json": "*",
+    "symfony/console": "^8.1"
+  }
+}
